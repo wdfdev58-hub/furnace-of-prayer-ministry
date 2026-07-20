@@ -1,4 +1,4 @@
-/* Revival Fire Ministry — custom styles atop Tailwind.
+/* Furnace of Prayer Ministry — custom styles atop Tailwind.
    Concept: sacred fire in the Kalahari night. */
 
 :root {
@@ -83,6 +83,7 @@ body { overflow-x: hidden; }
 .card:hover .card-num { color: rgba(245,184,65,0.6); transition: color .45s; }
 .card-title { margin-top: .6rem; font-size: 1.4rem; font-weight: 700; color: var(--bone); }
 .card-body { margin-top: .75rem; color: rgba(245,237,227,0.68); line-height: 1.6; }
+.card-ref { margin-top: 1rem; font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .2em; color: rgba(245,184,65,0.7); }
 
 /* ---- service list ---- */
 .svc { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.5rem .25rem; transition: padding-left .35s, background .35s; }
@@ -91,14 +92,6 @@ body { overflow-x: hidden; }
 .svc-sub { margin-top: .2rem; font-size: .85rem; color: rgba(245,237,227,0.5); }
 .svc-time { font-family: 'Anton', sans-serif; font-size: 2rem; letter-spacing: .04em;
   background: linear-gradient(120deg, var(--gold), var(--ember)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-
-/* ---- ministries grid ---- */
-.min { padding: 2.5rem 1.75rem; background: var(--ink); transition: background .4s, transform .4s; }
-.min::selection { background: var(--ember); }
-.min:hover { background: linear-gradient(180deg, rgba(255,90,31,0.12), rgba(11,10,9,1)); }
-.min-title { font-size: 1.15rem; font-weight: 700; color: var(--bone); }
-.min:hover .min-title { color: var(--gold); transition: color .4s; }
-.min-body { margin-top: .6rem; font-size: .92rem; color: rgba(245,237,227,0.6); line-height: 1.55; }
 
 .footlink { transition: color .3s; }
 .footlink:hover { color: var(--gold); }

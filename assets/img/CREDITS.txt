@@ -1,0 +1,11 @@
+hero.jpg — Pexels (burning coals / altar embers, real macro photography). No attribution required under Pexels licence.
+
+logo-full.png, logo-icon.png — Furnace of Prayer Ministry's own emblem, cropped from a screenshot of
+their existing site (furnaceofprayerministry.lovable.app) and made transparent. Self-hosted per WDF policy
+(no hot-linking). If the pastor can supply the original vector/high-res logo file, swap these out for a
+cleaner export — these are screenshot crops, not source art.
+
+Generic stock photos of unrelated people (choir, praying man, community high-five) that were fetched by
+the v1 generator were deliberately removed in the Phase 2 refine pass — see NOTES.md. This church's site
+leans on typography, colour and the one real altar-fire photo instead of stock "worship" imagery that
+isn't actually them.
